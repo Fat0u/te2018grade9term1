@@ -5,8 +5,18 @@ const READLINE = require("readline-sync");
 // an adult. Write code that prints whether or not someone can see an
 // R-rated movie.
 console.log("*** Problem 1: R-rated ***");
-let age = READLINE.question("Enter your age: ");
+let age = READLINE.question("Enter your age:  ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
+
+if ( age >=18 || withAdult ){
+
+console.log("Watch movie")
+
+}else{
+
+console.log("you need an adult")
+
+}
 
 
 // **** Problem 2: Umbrella ****
@@ -15,8 +25,18 @@ let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 // that's bad luck. Write code that prints if someone should bring an umbrella
 // with them.
 console.log("*** Problem 2: Umbrella ***");
-let raining = READLINE.question("Is it raining? (yes or no): ");
-let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+let raining = READLINE.question("Is it raining? (yes or no):  ");
+let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no):  ");
+
+if ( "yes" ){
+
+console.log ("bring umbrella")
+
+}else{
+
+console.log ("It's bad luck")
+
+}
 
 
 // **** Problem 3: Monkey Trouble ****
@@ -27,14 +47,18 @@ console.log("*** Problem 3: Monkey Trouble ***");
 let bubbles = READLINE.question("Is Bubbles smiling? (yes or no): ");
 let spankey = READLINE.question("Is Spankey smiling? (yes or no): ");
 
+if ("yes && yes")
+
+console.log ("you are in trouble")
+
 
 // **** Problem 4: First Place ****
-// Write code that prints the largest of three scores. If there is a tie for
+// Write code that prints the largest of three scores. If there is atie for
 // first place, simply print one of the tie winners.
 console.log("*** Problem 4: First Place ***");
 let score1 = READLINE.question("Enter the first score: ");
 let score2 = READLINE.question("Enter the second score: ");
-let score3 = READLINE.question("Enter the third score: ");
+let score3 = READLINE.question("Enter the third score:  ");
 
 
 // **** Problem 5: Phone Shopping ****
@@ -47,7 +71,7 @@ let score3 = READLINE.question("Enter the third score: ");
 // Write code that prints all the phone tiers someone can buy based on how much
 // money they have.
 console.log("*** Problem 5: Phone Shopping ***");
-let money = READLINE.question("How much money do you have?: ");
+let money = READLINE.question("How much money do you have?:   ");
 
 
 // **** Problem 6: Guess My Number ****
@@ -55,7 +79,9 @@ let money = READLINE.question("How much money do you have?: ");
 // use any number you like as myNum. If the user guesses the number, print
 // a congratulations message. If they guess too low or too high, tell them this.
 // If their guess is myNum +/- 3, tell them they are "warm"; otherwise tell
-// them they are cold.
+// them they are cold.5
+
+
 console.log("*** Problem 6: Guess My Number ***");
 let myNum = 5;
 let guess = READLINE.question("I'm thinking of a number. Guess it: ");
