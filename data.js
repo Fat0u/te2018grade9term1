@@ -1,5 +1,9 @@
 // Example
+<<<<<<< HEAD
 let message = "Greetings Pleb";
+=======
+let message = "No Regrets!";
+>>>>>>> 2d37d9937321815ccb04a1fa33384f474652fe7d
 console.log(message);
 console.log(typeof name)
 let name = "Ayan"
@@ -42,6 +46,29 @@ console.log(MiddleName)
 
 
 
+
+
+
+let something = "Happy place";
+console.log(something);
+
+let Doesnotlikerollercoaster = false;
+console.log(Doesnotlikerollercoaster);
+
+let NICE= true;
+console.log(NICE);
+
+let variable = 3+1 
+console.log(variable);
+
+let somenumber = 5
+console.log(somenumber);
+
+let whatever = 9
+console.log(whatever)
+
+let word= "It's my life"
+console.log(word)
 
 
 
