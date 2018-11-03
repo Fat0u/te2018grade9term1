@@ -3,11 +3,11 @@ const READLINE = require("readline-sync");
 // use whatever properties you want for the player object
 let player = {
   name: undefined,
-  courage: 0,
-  intellect: 0,
-  strength: 0,
-  charm: 0,
-  weapon: "fists",
+  courage: 99,
+  intellect: 151,
+  strength: 33,
+  charm: 10000,
+  weapon: "Vacuum",
   item: "flashlight",
 };
 
@@ -21,6 +21,9 @@ if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
   console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
   // continue the story
+  console.log (`${player.name} Enters and feels that she is not alone,`)
+  console.log (`${player.name} takes out her ${player.item} and looked around,`);
+  console.log(`${player.name} was petrified he wasn't enable to move for 1 min`);
 
 } else {
   player.intellect++;
