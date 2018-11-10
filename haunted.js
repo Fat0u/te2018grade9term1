@@ -42,6 +42,8 @@ if (openDoor == "y" || openDoor == "yes") {
  player.courage++;
   console.log(`${player.name} opens the door and saw a little girl he tought she was stuck in the house but once he got closer the little girl had sharp teeth with blood all over them`)
 console.log(`${player.name} He ran back to the hallway but he stopped because he realised he was running away from a fear he went back and used her ${player.item} to blind the little devil.`)
+console.log (`${player.name} he finally surmounted his fears`)
+
 } else {
 console.log(`${player.name} you're such a chicken.`)
 
@@ -50,7 +52,7 @@ console.log(`${player.name} you're such a chicken.`)
 
 
 } else {
- console.log(`${player.name} Sorry you Lost!!`) 
+ console.log(`${player.name} Sorry you Lost!!`)
 }
                                                               
 
