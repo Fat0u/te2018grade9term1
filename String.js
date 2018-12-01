@@ -7,11 +7,10 @@ Examples:
 withoutEnd("Hello") → "ell"
 withoutEnd("java") → "av"
 withoutEnd("coding") → "odin"
-*******************************************************************************/
-
 function withoutEnd(str) {
-
-}
+ let newStr.substring(1, str.length-1);
+  return newStr;   
+}                  
 
 // Remove comment below to test this function.
 //testWithoutEnd();
@@ -48,12 +47,22 @@ deFront("away") → "aay"
 *******************************************************************************/
 
 function deFront(str) {
+  edited = Str
+  let firstlet = chartAt(0)
+  let secondlet= chartAt (1)
+  let lastlet = chartAt(Str.length-1)
+  let seclast = chartAt(Str.length-2)
 
+  if (firstlet== seclast && secondlet == last){
+          return true
+}
+   else {
+         return false;
 }
 
 // Test this function.
 //testDeFront();
-
+ 
 /******************************************************************************
                                    without2()
 Instructions:
