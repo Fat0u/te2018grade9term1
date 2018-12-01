@@ -27,7 +27,7 @@ if(enterHouse == "y" || enterHouse == "yes"){
   // continue the story
   console.log();
 
-  console.log (`${player.name}see a dead body..`)
+  console.log (`${player.name} see a dead body..`)
   let investigation = READLINE.question(" do you want to investigate (yes or no)");
 if(investigation=="yes"){
   console.log(`${player.name} investigates the body`);

@@ -28,7 +28,6 @@ if(bath == "no") {
 else {
 	console.log("Good, then go take a nap");
 }
-
 let food = READLINE.question("Did you eat when you got home? ");
 if(food == "yes") {
 	console.log("Good");
@@ -48,6 +47,6 @@ else {
 
 console.log("Thanks for using The Parent Bot. Good bye for now!");
 console.log(`
-**************************************************
+*******************************************************************
 
-`)
+`)console.log("If you don't eat i will never buy you food from outside again");
