@@ -7,15 +7,23 @@ Examples:
 stringTimes("Hi", 2) → "HiHi"
 stringTimes("Hi", 3) → "HiHiHi"
 stringTimes("Hi", 1) → "Hi"
-*****************************************************************************************************
+*****************************************************************************************************/
 
 function stringTimes(str, n) {
-  for()
+  let str2 = ''
+  for(let i = 1;i <= n; i++){
+
+   str2 += str
+
+
+  }
+  
+  return str2
 
 }
 
 // Remove comment below to test this function.
-//testStringTimes();
+//testStringTim/es();
 
 /******************************************************************************
                                    countXX()
@@ -29,6 +37,8 @@ countXX("xxxx") → 3
 *******************************************************************************/
 
 function countXX(str) {
+  let str2 = ''
+  for (let i=0)
 
 }
 
